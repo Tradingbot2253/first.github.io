@@ -1,4 +1,1 @@
-<?php
-echo 'hello peepa';
 
-?>
