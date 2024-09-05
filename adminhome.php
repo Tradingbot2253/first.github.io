@@ -1,0 +1,98 @@
+<?php 
+session_start();
+
+if(!isset($_SESSION['username']))
+{
+header("location:login.php");
+}
+
+
+elseif($_SESSION['usertype']=='student')
+{
+header("location:login.php");
+}
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>admin home</title>
+
+	<link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+
+<body>
+	<header>
+	<h1>welcome admin</h1>
+<div class="Logout" >
+	<a class="btn btn-primary" href="Logout.php">Logout</a>
+</div>
+<a  class="king" href="">Admin dashboard</a>
+</header>
+<aside>
+	<ul>
+		<li>
+			
+<a href="">view courses</a>
+
+		</li>
+
+		<li>
+			
+<a href="">add courses</a>
+		</li>
+		<li>
+			<a href="">Admission</a>
+
+		</li>
+		<li>
+			<a href="">add teacher</a>
+
+		</li>
+		<li>
+			<a href="">View teacher</a>
+
+		
+		</li>		
+
+		<li>
+			<a href="">Add student</a>
+
+		
+		</li>		
+
+		<li>
+			<a href="">View student</a>
+
+		
+		</li>		
+	</ul>
+	
+
+</aside>
+<div class="content">
+	
+	<h1>Welcome to the Admin Dashboard!</h1>
+
+	<p>We’re thrilled to have you here. This is your central hub for managing and overseeing our smart energy metering system. From here, you can monitor real-time energy usage, manage user accounts, configure system settings, and generate insightful reports to optimize performance.
+
+If you need any assistance or have questions, our support resources and documentation are just a click away. Your efforts play a crucial role in ensuring the efficiency and effectiveness of our energy management system.
+
+Thank you for your dedication and hard work!
+
+Let’s get started.</p>
+</div>
+
+
+</body>
+</html>

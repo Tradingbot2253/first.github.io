@@ -1,0 +1,62 @@
+
+<?php
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
+error_reporting(0);
+session_start();
+$host="localhost";
+
+$user="root";
+
+$password="";
+
+$db="Great minds";
+
+
+$data=mysqli_connect($host,$user,$password,$db);
+
+if ($data===false) {
+    die("Connection failed: " . $data->connect_error);
+}
+
+
+if($_SERVER["REQUEST_METHOD"]=="POST")
+{ 
+$name = $_POST['name'];
+$pass = $_POST['password'];
+
+$sql="select* from schoolProject where username='".$name."' AND password='".$pass."'";
+$result=mysqli_query($data, $sql);
+
+$row=mysqli_fetch_array($result);
+
+
+
+if($row["usertype"]=="client")
+{
+$_SESSION["usertype"]="client";
+$_SESSION['username']=$name;
+header("location:sudent.php");
+}
+
+
+
+elseif($row["usertype"]=="admin")
+{
+$_SESSION["usertype"]="admin";
+$_SESSION['username']=$name;
+header("location:adminhome.php");
+}
+
+
+
+else{
+    session_start();
+    $message="Email or password does  not match";
+    $_SESSION['loginmessage']=$message;
+    header("location:login.php");
+
+}
+}
+?>
