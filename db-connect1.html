@@ -37,7 +37,7 @@ if($row["usertype"]=="client")
 {
 $_SESSION["usertype"]="client";
 $_SESSION['username']=$name;
-header("location:sudent.php");
+header("location:sudent.html");
 }
 
 
@@ -46,7 +46,7 @@ elseif($row["usertype"]=="admin")
 {
 $_SESSION["usertype"]="admin";
 $_SESSION['username']=$name;
-header("location:adminhome.php");
+header("location:adminhome.html");
 }
 
 
@@ -55,7 +55,7 @@ else{
     session_start();
     $message="Email or password does  not match";
     $_SESSION['loginmessage']=$message;
-    header("location:login.php");
+    header("location:login.html");
 
 }
 }
