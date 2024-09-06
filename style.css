@@ -16,7 +16,7 @@ z-index: 1;
 .logo
 {
 font-size: 30px;
-position:relative;
+position:inherent;
 left: 5%;
 color: white;
 font-weight: bold;
