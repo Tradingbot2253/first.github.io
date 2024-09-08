@@ -18,7 +18,7 @@ width: 100%;
 .logo
 {
 font-size: 30px;
-position:inherent;
+position:auto;
 left: 5%;
 color: white;
 font-weight: bold;
@@ -28,7 +28,7 @@ line-height: 70px;
 
 
 ul{
-	position: relative;
+	position: inline;
 	float: right;
 	margin-right: 20px;
 	
@@ -36,7 +36,7 @@ ul{
 	
 }
 ul li {
-	display: inline-block;
+	display: inherent;
 	line-height: 70px;
 	margin: 0 5px;
 }
