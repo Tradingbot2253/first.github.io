@@ -28,7 +28,7 @@ line-height: 70px;
 
 
 ul{
-	position: inline;
+	position: auto;
 	float: right;
 	margin-right: 20px;
 	
