@@ -4,13 +4,15 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "poppins";
+	 width: 100%; /* Make it take full width of the screen */
+  padding: 20px;
 }
 nav{
-position: fixed;
+position: auto;
 background-color: skyblue;
 height: 50px;
 width: 100%;
-z-index: 1;
+//z-index: 1;
 
 }
 .logo
