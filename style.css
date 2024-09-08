@@ -18,7 +18,7 @@ width: 100%;
 .logo
 {
 font-size: 30px;
-position:inline-block;
+position:flex;
 left: 5%;
 color: white;
 font-weight: bold;
