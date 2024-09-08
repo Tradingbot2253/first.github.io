@@ -36,7 +36,7 @@ ul{
 	
 }
 ul li {
-	display: inherent;
+	display: auto;
 	line-height: 70px;
 	margin: 0 5px;
 }
