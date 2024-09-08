@@ -1,15 +1,14 @@
-*{
+{
 
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "poppins"; /* Make it take full width of the screen */
-  padding: 20px;
+	font-family: "poppins";
 }
 nav{
-position: top;
+position: fixed;
 background-color: skyblue;
-height: 25px;
+height: 50px;
 width: 100%;
 z-index: 1;
 
