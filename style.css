@@ -6,7 +6,7 @@
 	font-family: "poppins";
 }
 nav{
-position: flex;
+position: fixed;
 background-color: skyblue;
 height: 50px;
 width: 100%;
@@ -119,7 +119,6 @@ footer
 	color: white;
 	top: 20%;
 	position: relative;
-	width:100%;
 	
 }
 
