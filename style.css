@@ -34,7 +34,7 @@ ul{
 	
 }
 ul li {
-	display: inline-block;
+	display: relative;
 	line-height: 70px;
 	margin: 0 5px;
 }
