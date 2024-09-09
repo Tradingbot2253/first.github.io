@@ -16,11 +16,12 @@ z-index: 1;
 .logo
 {
 font-size: 30px;
-position:relative;
+position:inherent;
 left: 5%;
 color: white;
 font-weight: bold;
 line-height: 70px;
+	padding:20px
 
 }
 
@@ -29,6 +30,7 @@ ul{
 	position: inline-block;
 	float: right;
 	margin-right: 20px;
+	padding-bottom:20px
 	
 
 	
