@@ -26,7 +26,7 @@ line-height: 70px;
 
 
 ul{
-	position: inline-box;
+	position: inline-block;
 	float: right;
 	margin-right: 20px;
 	
