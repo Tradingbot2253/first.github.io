@@ -26,7 +26,7 @@ line-height: 70px;
 
 
 ul{
-	position: up;
+	position: inline-box;
 	float: right;
 	margin-right: 20px;
 	
@@ -34,7 +34,7 @@ ul{
 	
 }
 ul li {
-	display: relative;
+	display: up;
 	line-height: 70px;
 	margin: 0 5px;
 }
