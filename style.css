@@ -36,7 +36,7 @@ ul{
 	
 }
 ul li {
-	display: float;
+	display: inline-block;
 	line-height: 70px;
 	margin: 0 5px;
 }
