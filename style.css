@@ -1,124 +1,251 @@
-*{
 
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "poppins";
-}
-nav{
-position: auto;
-background-color: skyblue;
-height: 50px;
-width: 100%;
-z-index: 1;
-
-}
-.logo
-{
-font-size: 30px;
-position:inherent;
-left: 5%;
-color: white;
-font-weight: bold;
-line-height: 70px;
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-
-ul{
-	position: inline-block;
-	float: right;
-	margin-right: 20px;
-	padding-bottom:20px
-	
-
-	
+body {
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
 }
+
+/* General Styling */
+nav {
+    position: relative;
+    background-color: skyblue;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    padding-left: 20px;
+    padding-bottom: 1%;
+}
+
+.logo {
+    font-size: 99%;
+    color: white;
+    font-weight: bold;
+    line-height: 50px;
+    padding-top: 1px;
+}
+
+ul {
+    position: absolute;
+    float: right;
+    margin-right: 1px;
+}
+
 ul li {
-	display: inline-block;
-	line-height: 70px;
-	margin: 0 5px;
-	padding-bottom:20px
+    display: inline-block;
+    margin: 0 10px;
 }
+
 ul li a {
-	text-decoration: blink;
-	color: white;
-	font-size: 20px;
-}
-.main_img{
-	width: 100%;
-	height: 300px;
-}
-.section1{
-	padding-top: 50px;
-}
-.img_text{
-	position: absolute;
-	top: 10%;
-	left: 30%;
-	background-color: lightpink;
-	padding-right: 20px;
-	padding-right: 20px;
-	font-size: 35px;
-
-}
-.welcome_img{
-
-	width: 100%;
-	height: 250px;
-
-}
-.container{
-	padding: 70px;
-}
-.teacher{
-	width: 90%;
-height: 200px
+    text-decoration:blink;
+    color: white;
+    font-size: 16px;
 }
 
-
+.main_img {
+    width: 100%;
+    height: 300px;
 }
-.label_text{
-	display: inline-block;
-	width: 100px;
-	text-align: right;
-	padding-right: 10px;
-}
-.input_deg{
 
-	width: 30%;
-	height: 40px;
-	border-radius: 25px;
-	border: 1px solid blue;
-	bode
+.section1 {
+    padding-top: 50px;
 }
-.adm_int
-{
-	padding-top: 10px;
 
+.img_text {
+    position: inherit;
+    top: 10%;
+    left: 3%;
+    background-color: lightpink;
+    padding-right: 2%;
+    padding-left: 2%;
+    font-size: 40px;
 }
-.input_txt{
-	width: 30%;
-	height: 120px;
-	border-radius: 25px;
-	border: 1px;
 
-
+.welcome_img {
+    width: 100%;
+    height: 250px;
 }
-#submit{
-	position: relative;
-	width: 15%;
-	left: 5%;
-}
-footer
-{
-	background-color: black;
-	height: 70px;
-	width: 100%;
-}.footer_text{
 
-	text-align: center;
-	color: white;
+.container {
+    padding: 70px;
+}
+
+.teacher {
+    width: 90%;
+    height: 200px;
+}
+
+.label_text {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.input_deg {
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
+
+.adm_int {
+    padding-top: 10px;
+}
+
+.input_txt {
+    width: 30%;
+    height: 120px;
+    border-radius: 25px;
+    border: 1px solid #000;
+}
+
+#submit {
+    position: relative;
+    width: 15%;
+    left: 5%;
+}
+
+footer {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.footer_text {
+    text-align: center;
+    color: white;
+    top: 20%;
+    position: relative;
+}
+
+/* Media Queries */
+
+/* For mobile devices (max-width: 600px) */
+@media (max-width: 600px) {
+    nav {
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 80%;
+        line-height: 50px;
+    }
+
+    ul {
+        position: relative;
+        display: block;
+        padding-top: 10px;
+    }
+
+    ul li {
+        margin: 5px 0;
+        display: block;
+        text-align: center;
+    }
+
+    ul li a {
+        font-size: 14px;
+    }
+
+    .main_img {
+        height: 200px;
+    }
+
+    .welcome_img {
+        height: 150px;
+    }
+
+    .img_text {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .input_deg, .input_txt {
+        width: 80%;
+    }
+
+    #submit {
+        width: 50%;
+        left: 0;
+    }
+}
+
+/* For tablets (min-width: 601px and max-width: 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    nav {
+        height: 60px;
+    }
+
+    .logo {
+        font-size: 90%;
+    }
+
+    ul {
+        margin-right: 20px;
+    }
+
+    ul li {
+        margin: 0 15px;
+    }
+
+    ul li a {
+        font-size: 16px;
+    }
+
+    .main_img {
+        height: 250px;
+    }
+
+    .welcome_img {
+        height: 200px;
+    }
+
+    .img_text {
+        font-size: 25px;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .input_deg, .input_txt {
+        width: 60%;
+    }
+
+    #submit {
+        width: 30%;
+    }
+}
+
+/* For desktop (min-width: 1025px) */
+@media (min-width: 1025px) {
+    ul li a {
+        font-size: 18px;
+    }
+
+    .img_text {
+        font-size: 30px;
+    }
+
+    .input_deg, .input_txt {
+        width: 40%;
+    }
+
+    #submit {
+        width: 15%;
+    }
+}
+
 	top: 20%;
 	position: relative;
 	
