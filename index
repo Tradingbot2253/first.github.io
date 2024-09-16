@@ -65,7 +65,141 @@ Explore our innovative solutions and discover how we’re making energy manageme
 Thank you for visiting, and we look forward to helping you manage your energy more effectively!</p>
 		</div>
 	</div>
+</div>	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav>
+	<label class="logo"> SMART ENERGY METERING    
+
+</label>
+	<ul>
+		<li><a href="login.php" class="btn btn-success">Login</a></li>
+		<li><a href="contact.php" >Contact</a></li>
+		<li><a href="signin.php"  >Register</a></li>
+		
+
+	</ul>
+	
+	
+</nav>
+
+
+<div class="section1">
+
+	<label style="background-color:hotpink;" class="img_text" style="color: white;">Inovation from GreatMinds</label>
+
+	
+<img class="main_img" src="	1.jpg">
+
+
 </div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<img class="welcome_img" src="5.jpg">
+
+
+
+</div>
+
+	<div class="col-md-8">
+
+		<h1>Welcome to the Future of Smart Energy Management!</h1>
+
+<p>At Great Minds, we’re excited to introduce our advanced smart energy meter solution designed to simplify and enhance your energy management experience. 
+
+Explore our innovative solutions and discover how we’re making energy management smarter and more convenient for you.
+
+Thank you for visiting, and we look forward to helping you manage your energy more effectively!</p>
+		</div>
+	</div>
+</div>
+<center>
+	<h1>Our products</h1>
+</center>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+
+			<img class="teacher" src="1_8LZSZ41RJoTNQc3BnFlRzw.jpg">
+			<h1>Effortless Webpage Controls at Your Fingertips!</h1>
+			<p>
+Experience intuitive control over your IoT devices directly from our website. Our user-friendly interface allows you to manage settings, monitor performance, and access real-time data with ease. Discover how seamless and efficient managing your IoT ecosystem can be.</p>
+		</div>
+		<div class="col-md-4">
+
+
+			<img class="teacher" src="16891493779133017a377.jpg">
+			<h1>Unboxing Innovation: The IoT Package</h1>
+
+			<p>
+"Take a closer look at our sleek, carefully designed packaging that reflects the quality and sophistication of our IoT solutions. From the moment you receive your package, you'll see the attention to detail and commitment to excellence that defines our products."</p>
+		</div>
+		<div class="col-md-4">
+			<img class="teacher" src="iot-smart-energy-meter-gsm-4608-by-3456-1.png">
+			<h1>From Concept to Creation: Early Prototyping with Arduino and GSM"</h1>
+
+			<p>
+"Dive into the early stages of our development journey with this snapshot of our initial Arduino and GSM setup. This prototype was instrumental in shaping our innovative IoT solutions, laying the groundwork for the advanced technology we offer today. See where our ideas began and how they evolved into cutting-edge solutions."</p>
+		</div>
+	</div>
+</div> <hr>
+<center><h1>Our CEO</h1></center>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+	<img class="teacher" src="ceo.jpeg">
+	<h1>Visionary Leadership Driving Innovation</h1>
+	<p>"Our CEO's visionary leadership is the driving force behind our commitment to innovation and excellence. With a keen eye for emerging technologies and a passion for transforming ideas into reality, they steer our company towards new horizons, ensuring we stay at the forefront of the IoT industry. "</p>
+<p>
+<em>~ENG.PETER KORIR, CEO, GREATMINDS TECH
+</em>
+</div>
+
+<div class="col-md-4">
+	<img class="teacher" src="CEO1.jpeg">
+	<h1>A Message from our CEO</h1>
+	<p>We’re thrilled to launch the Smart Energy project, a key step in our mission to revolutionize energy efficiency and sustainability. This innovative initiative will leverage the latest technology to create smarter, greener solutions for a brighter future. Thank you for your continued support as we lead the charge in transforming the energy landscape.
+
+<em>— ENG. DANIEL MIHESO, CEO, GREATMINDS TECH</em></p>
+</div>
+
+
+<div class="col-md-4">
+	<img class="teacher" src="CEO2.jpeg">
+	<h1>A Message from Our CEO</h1>
+	<p>
+We are excited to collaborate on the Smart Energy project, a groundbreaking venture set to redefine the future of energy. Together, we are combining our expertise and vision to drive innovation and sustainability. This partnership exemplifies our shared commitment to delivering smart, efficient solutions that benefit both our industries and the planet.
+
+Thank you for joining us on this transformative journey.
+
+
+<em>— ENG. PETER KIBAGENDI, CEO, GREAMINDS TECH</em></p>
+
+</div>
+</div>
+</div>
+
+
+
+<footer style="background-color: aqua;">
+	<h3 class="footer_text">&copy;All CopyRight Reserved by GreatMinds Tech</h3>
+	<h10 >Powered by Pinkie @0722539292</h10>
+	<a style="color:darkred; padding-left: 30px;"  href="contact.php" >Contact administator</a>
+</footer>
+
+</body>
+</html>
+
 <center>
 	<h1>Our products</h1>
 </center>
@@ -147,29 +281,3 @@ Thank you for joining us on this transformative journey.
 
 		</div>
 
-		<div class="input-group" >
-			<i class="fas fa-phone"></i>
-			<label class="label_deg"></label>
-					<input type="text" name="phone" placeholder="phone"required>
-
-
-		</div>
-		<div class="input-group">
-			<i class="fas fa-lock"></i>
-			<input type="password" name="password"  id="password" placeholder="password" required>
-			<label class="password"></label>
-			<p class="recover"></p>
-
-				<input type="submit" name="submit" class="btn" value="Sign In" name="signin" id="signIn"  > 
-</form>
-
-
-
-<footer style="background-color: aqua;">
-	<h3 class="footer_text">&copy;All CopyRight Reserved by GreatMinds Tech</h3>
-	<h10 >Powered by Pinkie @0722539292</h10>
-	<a style="color:darkred; padding-left: 30px;"  href="contact.html" >Contact administator</a>
-</footer>
-
-</body>
-</html>
